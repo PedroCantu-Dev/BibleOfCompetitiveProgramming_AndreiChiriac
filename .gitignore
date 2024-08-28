@@ -1,0 +1,36 @@
+# Zig build artifacts
+zig-cache/
+zig-out/
+
+# C++ build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.dll
+*.dylib
+*.lib
+*.pdb   
+
+# C++ cross-compiled files
+*.s
+*.ii
+*.i
+
+# Other C++ files to ignore
+*.log
+*.swp
+*.swo
+
+# Directories to ignore
+Debug/
+Release/
+.vs/
+.vscode/
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
